@@ -1,9 +1,8 @@
-var angular = require('angular')
-var router = require('./router')
+var angular = require('angular') // require('../lib/angul')
+var router = require('../lib/router')(angular)
 
 angular
-  .module('angul-demo', [])
-  .run(router)
+  .module('angul-demo', [ router ])
   .component('app', require('./components/app.component'))
   .component('pageone', require('./views/page-one'))
   .component('pagetwo', require('./views/page-two'))
