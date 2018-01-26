@@ -1,0 +1,40 @@
+{
+  "name": "angul-demo",
+  "version": "1.0.0",
+  "description": "mini angul app",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo src/app.js:bundle.js --live --dir src --pushstate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kareniel/angul-demo.git"
+  },
+  "standard": {
+    "globals": [
+      "angular"
+    ]
+  },
+  "keywords": [
+    "angularjs"
+  ],
+  "author": "kareniel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kareniel/angul-demo/issues"
+  },
+  "homepage": "https://github.com/kareniel/angul-demo#readme",
+  "dependencies": {
+    "angul": "^1.0.0",
+    "angular": "^1.6.8",
+    "angularjs-morph": "^1.0.0",
+    "nanohref": "^3.0.1",
+    "nanolocation": "^1.0.0",
+    "nanoquery": "^1.2.0",
+    "nanorouter": "^3.0.1"
+  },
+  "devDependencies": {
+    "budo": "^10.0.4",
+    "standard": "^10.0.3"
+  }
+}
