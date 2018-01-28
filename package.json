@@ -25,8 +25,7 @@
   },
   "homepage": "https://github.com/kareniel/angul-demo#readme",
   "dependencies": {
-    "angul": "^1.0.0",
-    "angular": "^1.6.8",
+    "angular": "1.5.11",
     "document-ready": "^2.0.1",
     "fn-args": "^3.0.0",
     "nanohref": "^3.0.1",

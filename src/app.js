@@ -1,4 +1,5 @@
-var angular = require('angular') // require('../lib/angul')
+var angular = require('../lib/angul') // require('angular')
+console.log(angular)
 var router = require('../lib/router')(angular)
 
 angular
